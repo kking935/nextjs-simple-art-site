@@ -4,7 +4,8 @@ import Head from 'next/head'
 export type LayoutProps = {
     children: FC
 }
-export const Layout: FC = (props) => {
+
+const Layout: FC = (props) => {
     return (
         <>
             <Head>
@@ -17,3 +18,5 @@ export const Layout: FC = (props) => {
         </>
     )
 }
+
+export default Layout
