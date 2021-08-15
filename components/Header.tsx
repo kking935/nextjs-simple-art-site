@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 const Header: FC = () => {
     return (
-        <>            
-            <nav className='w-screen shadow-md'>
+        <header className='w-screen shadow-md'>            
+            <nav>
                 <ul className='mx-auto flex justify-start items-center max-w-7xl py-6 px-5'>
                     <li>
                         <h1 className='font-extrabold text-2xl'>Mario Nino</h1>
@@ -19,7 +19,7 @@ const Header: FC = () => {
                     </li>
                 </ul>
             </nav>
-        </>
+        </header>
     )
 }
 
