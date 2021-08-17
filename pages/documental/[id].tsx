@@ -47,9 +47,10 @@ const DocumentalPage: NextPage<FilmProps> = (props: FilmProps) => {
         <h1 className='text-white text-3xl font-semibold pb-10'>{props.film.title}</h1>
 
         <Divider black={false} />
-        <section className='px-3 sm:px-10'>
-            <div className='pt-10 flex justify-center items-center'>
-                <iframe width='760' height='515' 
+        <section className='px-3 sm:px-10 flex justify-center items-center flex-col'>
+            <div className='mt-10 relative h-0 overflow-hidden max-w-3xl w-full' style={{paddingBottom: '56.25%'}}>
+                <iframe 
+                    className="absolute top-0 left-0 w-full h-full"
                     src={props.film.embeddedSrc}
                     title='YouTube video player' 
                     frameBorder='0' 
