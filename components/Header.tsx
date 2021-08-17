@@ -16,9 +16,9 @@ const Header: FC = () => {
                     </li>
                     <li className='flex-grow' />
                     <li>
-                        <Link href='/escaparate'>
+                        <Link href='/trabajos'>
                             <a className='hidden sm:block p-3 font-bold text-white transition duration-500 hover:text-red-500  mr-24'>
-                                ESCAPARTE
+                                TRABAJOS
                             </a>
                         </Link>
                     </li>
