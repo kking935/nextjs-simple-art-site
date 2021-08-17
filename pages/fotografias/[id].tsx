@@ -29,7 +29,8 @@ export async function getStaticProps(props: {params: {id: string}}) {
 type ProjectProps = {
   project: {
     title: string,
-    photos: any
+    photos: any,
+    description: string
   }
 }
 
@@ -51,6 +52,7 @@ const GaleriaPage: NextPage<ProjectProps> = (props: ProjectProps) => {
             <div className='pt-10'>
               <Gallery photos={props.project.photos} />
             </div>
+            <p className='text-left mt-10'>{props.film.description}</p>
         </section>
       </section>
     </Layout>
