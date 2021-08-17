@@ -32,13 +32,19 @@ const Home: NextPage = () => {
             👋 Hola, me llamo <b>Mario Niño</b>.
           </p>
           <p className='mt-8'>
-            Soy camarógrafo y creador digital.
+            Productor y realizador independiente con 15 años dedicados a la realización audiovisual. 
+            Mi trabajo se mueve entre el cine, la fotografía y el video experimental. 
           </p>
-          <p className='mt-5 '>
-            Me gradué magna cum laude de la Facultad de Ingeniería de Virginia Tech con una licenciatura en Ciencias de la Computación. Completé mi título un año antes, tiempo en el que jugué fútbol de la División 1 para los Hokies en mi primer año, realicé una investigación de pregrado para la universidad en mi segundo año y trabajé para una startup en etapa temprana en mi tercer año.
+          <p className='mt-8'>
+            He sido ganador de varias becas de creación artística con las que he producido diferentes trabajos, siendo los más destacados el cortometraje LOVE STORY (2012) y el cortometraje LA LLUVIA (2013), cortometrajes que han sido seleccionados en diferentes festivales de cine dentro y fuera del país y que fueron incluidos en el catálogo de cortometrajes de Proimágenes Colombia / Ministerio de cultura 2014, 2015. 
+            He trabajado para la TV pública colombiana como realizador de la serie documental “HECHOS DE CORAZÓN”. 
           </p>
-          <p className='mt-5 '>
-            Actualmente trabajo a tiempo parcial para Vector Rideshare al mismo tiempo que persigo una educación superior y mis propios esfuerzos tecnológicos.
+          <p className='mt-8'>
+            Viví en Holanda durante el año 2015 y en ese periodo realice el documental EL UNIVERSO DE MAX, cortometraje que tuvo su lanzamiento mundial en la competencia de cortometraje iberoamericano del Festival internacional de cine de Guadalajara, FICG, México 2017. 
+          </p>
+          <p className='mt-8'>
+            Mi último trabajo es un documental titulado MEMORIAS DE GUAMOC, ganador en la competencia de documental del Festival Internacional de cine corto de Popayán 2019, documental que aborda la violencia ejercida por grupos armados en Colombia. 
+            He sido docente de educación formal e informal. Actualmente trabajo como freelance para agencias de publicidad y corporaciones en la producción de piezas audiovisuales.
           </p>
         </div>
       </section>
