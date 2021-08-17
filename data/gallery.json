@@ -1,0 +1,87 @@
+[
+    {
+        "title": "PROTESTAS",
+        "endpoint": "protestas",
+        "mainImage": "/images/flag.jpg",
+        "photos": [
+            {
+                "src": "/images/flag.jpg",
+                "width": 4,
+                "height": 2
+            },
+            {
+                "src": "/images/colombia-pics-1.jpg",
+                "width": 4,
+                "height": 2
+            },            {
+                "src": "/images/colombia-pics-2.jpg",
+                "width": 4,
+                "height": 2
+            },
+            {
+                "src": "/images/colombia-pics-3.jpg",
+                "width": 4,
+                "height": 2
+            },            {
+                "src": "/images/colombia-pics-4.jpg",
+                "width": 4,
+                "height": 2
+            },
+            {
+                "src": "/images/colombia-pics-5.jpg",
+                "width": 4,
+                "height": 2
+            },            {
+                "src": "/images/colombia-pics-6.jpg",
+                "width": 4,
+                "height": 2
+            },
+            {
+                "src": "/images/colombia-pics-7.jpg",
+                "width": 4,
+                "height": 2
+            }
+        ]
+    },
+    {
+        "title": "TRABAJANDO",
+        "endpoint": "trabajando",
+        "mainImage": "/images/working.png",
+        "photos": [
+            {
+                "src": "/images/working.png",
+                "width": 4,
+                "height": 2
+            },
+            {
+                "src": "/images/work.png",
+                "width": 4,
+                "height": 2
+            }
+        ]
+    },
+    {
+        "title": "DOCUMENTARIO",
+        "endpoint": "documentario",
+        "mainImage": "/images/documentary.jpg",
+        "photos": [
+            {
+                "src": "/images/documentary.jpg",
+                "width": 4,
+                "height": 2
+            }
+        ]
+    },
+    {
+        "title": "URBANO",
+        "endpoint": "urbano",
+        "mainImage": "/images/train.jpg",
+        "photos": [
+            {
+                "src": "/images/train.jpg",
+                "width": 4,
+                "height": 2
+            }
+        ]
+    }
+]
