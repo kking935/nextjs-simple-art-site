@@ -38,8 +38,8 @@ const GaleriaPage: NextPage<ProjectProps> = (props: ProjectProps) => {
     <Layout>
       <section className='text-center mx-auto max-w-7xl pt-10 pb-24 px-8 md:px-16'>
         <div className='pb-10 text-left text-gray-400'>
-          <Link href='/galeria'>
-            <a className=' hover:text-blue-400 text-current'>Galeria</a>
+          <Link href='/escaparate'>
+            <a className=' hover:text-blue-400 text-current'>Escaparate</a>
           </Link>
           <p className='inline-block mx-1'> / </p>
           <p className='cursor-default inline-block font-semibold'>{props.project.title}</p>

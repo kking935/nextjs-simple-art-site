@@ -9,7 +9,7 @@ export type LayoutProps = {
 
 const Layout: FC<LayoutProps> = (props: LayoutProps) => {
     return (
-        <div className='font-mono overflow-x-hidden'>
+        <div className='font-mono overflow-x-hidden text-white'>
             <Head>
                 <title>Mario Niño</title>
             </Head>

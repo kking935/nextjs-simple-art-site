@@ -44,41 +44,12 @@
         ]
     },
     {
-        "title": "TRABAJANDO",
-        "endpoint": "trabajando",
-        "mainImage": "/images/working.png",
+        "title": "LOVE STORY",
+        "endpoint": "love-story",
+        "mainImage": "/images/love.jpg",
         "photos": [
             {
-                "src": "/images/working.png",
-                "width": 4,
-                "height": 2
-            },
-            {
-                "src": "/images/work.png",
-                "width": 4,
-                "height": 2
-            }
-        ]
-    },
-    {
-        "title": "DOCUMENTARIO",
-        "endpoint": "documentario",
-        "mainImage": "/images/documentary.jpg",
-        "photos": [
-            {
-                "src": "/images/documentary.jpg",
-                "width": 4,
-                "height": 2
-            }
-        ]
-    },
-    {
-        "title": "URBANO",
-        "endpoint": "urbano",
-        "mainImage": "/images/train.jpg",
-        "photos": [
-            {
-                "src": "/images/train.jpg",
+                "src": "/images/love.jpg",
                 "width": 4,
                 "height": 2
             }
