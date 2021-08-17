@@ -73,10 +73,10 @@ const Home: NextPage = () => {
                 <Image src='/images/working.png' alt='' layout='fill' />
               </div>
             </AutoplaySlider>
-            <Link href='/galeria'>
-              <a className='w-40 float-right flex flex-row justify-evenly items-center bg-blue-500 p-3 rounded-xl mt-5 text-sm'>
+            <Link href='/escaparate'>
+              <a className='w-44 float-right flex flex-row justify-evenly items-center bg-blue-500 py-3 px-1 rounded-xl mt-5 text-sm'>
                 <GalleryIcon />
-                Ver Galería
+                Ver Escaparate
               </a>
             </Link>
           </div>
