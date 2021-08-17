@@ -8,7 +8,7 @@ type FooterLinkProps = {
 const FooterLink: FC<FooterLinkProps> = (props: FooterLinkProps) => {
     return (
         <li className='px-3'>
-            <a href={props.link} target='_blank'>
+            <a href={props.link} target='_blank' rel='noreferrer'>
                 {props.children}
             </a>
         </li>

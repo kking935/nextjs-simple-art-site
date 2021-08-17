@@ -8,12 +8,12 @@ const RouteLoader = ({ children }) => {
   const router = useRouter()
 
   useEffect(() => {
-    const handleRouteStart = (url) => {
+    const handleRouteStart = () => {
       setMainClassToggler('transition duration-500 ease-out filter blur-lg')
       setLoaderClassToggler('transition duration-500 ease-in opacity-100')
     }
 
-    const handleRouteComplete = (url) => {
+    const handleRouteComplete = () => {
       setTimeout(() => {
         setMainClassToggler('transition duration-200 ease-in filter blur-none')
         setLoaderClassToggler('transition duration-500 ease-out opacity-0')
@@ -21,7 +21,7 @@ const RouteLoader = ({ children }) => {
       }, 1000)
     }
 
-    const handleRouteChangeError = (err, url) => {
+    const handleRouteChangeError = () => {
       setMainClassToggler('transition duration-500 ease-out filter blur-none')
       setLoaderClassToggler('hidden')
     }
@@ -37,7 +37,7 @@ const RouteLoader = ({ children }) => {
       router.events.off('routeChangeComplete', handleRouteComplete)
       router.events.off('routeChangeError', handleRouteChangeError)
     }
-  }, [])
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
   
   return (
     <>

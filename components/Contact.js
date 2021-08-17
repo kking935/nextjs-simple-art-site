@@ -1,18 +1,15 @@
-import Head from 'next/head';
 import { useState } from 'react';
+import Link from 'next/link'
 import Divider from './Divider';
 import { FailuerIcon, SuccessIcon, UploadIcon } from './Icons';
-import Layout from './Layout';
-import Link from 'next/link'
 
 const endpoint = 'https://6pt3w3cmjl.execute-api.us-east-1.amazonaws.com/default/sendContactEmail'
 const inputStyles = 'mt-1 text-black block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50'
 const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
-const SuccessMessage = () => {
-    return (
+const SuccessMessage = () => (
         <div className='text-center w-full pt-3 pb-6'>
-            <SuccessIcon className={'text-green-500 fill-current mx-auto w-16 h-16'} />
+            <SuccessIcon className="text-green-500 fill-current mx-auto w-16 h-16" />
             <p className='text-lg font-bold pt-8 pb-5'>¡Mensaje enviado!</p>
             <Divider />
             <p className='text-sm font-semibold pt-5'>
@@ -26,10 +23,8 @@ const SuccessMessage = () => {
             </Link>
         </div>
     )
-}
 
-const FailureMessage = () => {
-    return (
+const FailureMessage = () => (
         <div className='text-center w-full pt-3 pb-6'>
             <FailuerIcon className='text-red-500 fill-current mx-auto w-16 h-16' />
             <p className='text-lg font-bold pt-8 pb-5'>No se pudo enviar el mensaje</p>
@@ -45,7 +40,6 @@ const FailureMessage = () => {
             </Link>
         </div>
     )
-}
 
 const Contact = () => {
     const [loading, setLoading] = useState(false)
@@ -57,7 +51,7 @@ const Contact = () => {
         const email = document.getElementById('email-input').value
         const message = document.getElementById('message-input').value
         console.log(name, email, message)
-        let errors = {}
+        const errors = {}
         if (!validateName(name, errors).name && !validateEmail(email, errors).email && !validateMessage(message, errors).message) {
             setReady(true)
         }
@@ -100,7 +94,7 @@ const Contact = () => {
             "message": validateMessage
         }
         let errors = {}
-        let errorElem = document.getElementById(`${type}-error`)
+        const errorElem = document.getElementById(`${type}-error`)
         errors = validators[type](input, errors)
         if (errors[type]) {
             // Set error message or wipe old error message
@@ -151,11 +145,9 @@ const Contact = () => {
             })
     }
 
-    const ErrorText = ({ name }) => {
-        return (
-            <p id={`${name}-error`} className='pl-1 pt-1 text-sm  text-red-500'></p>
+    const ErrorText = ({ name }) => (
+            <p id={`${name}-error`} className='pl-1 pt-1 text-sm  text-red-500' />
         )
-    }
 
     return (
         <div className=' text-white w-full'>
@@ -186,13 +178,13 @@ const Contact = () => {
                     </label>
                     <label className="block mb-5">
                         <span>Mensaje</span>
-                        <textarea id='message-input' onBlur={event => checkInput(event.target.value, 'message')} required placeholder="" name='message' className={inputStyles} rows="5" placeholder=""></textarea>
+                        <textarea id='message-input' onBlur={event => checkInput(event.target.value, 'message')} required placeholder="" name='message' className={inputStyles} rows="5" />
                         <ErrorText name='message' />
                     </label>
                     <div className='text-center mt-5 py-2'>
                         <button disabled={!ready} type='submit' className={`${ready ? '' : 'opacity-50 cursor-default'} bg-blue-500 p-3 rounded-xl text-white `}>Entregar</button>
                     </div>
-                    <p id='result-text'></p>
+                    <p id='result-text' />
                 </form>
             </div>
         </div>
