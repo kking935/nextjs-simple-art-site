@@ -4,24 +4,22 @@ import Header from './Header'
 import Footer from './Footer'
 
 export type LayoutProps = {
-    children: FC
+    children: any
 }
 
-const Layout: FC = (props) => {
+const Layout: FC<LayoutProps> = (props: LayoutProps) => {
     return (
-        <>
+        <div className='font-mono overflow-x-hidden'>
             <Head>
-                <title>Mario Nino</title>
+                <title>Mario Niño</title>
             </Head>
             
             <Header />
-            <main className='w-screen min-h-screen bg-gray-400'>
-                <div className='px-10 pt-10 mx-auto max-w-7xl'>
-                    {props.children}
-                </div>
+            <main className='w-screen min-h-screen bg-gray-900'>
+                {props.children}
             </main>
             <Footer />
-        </>
+        </div>
     )
 }
 
