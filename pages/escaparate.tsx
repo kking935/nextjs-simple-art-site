@@ -74,7 +74,7 @@ const Galeria: NextPage<GaleriaProps> = (props: GaleriaProps) => {
           <li className='mx-3 h-1 w-96' />
         </ul>
         <div className='text-gray-300 flex justify-start items-center mt-10'>
-          <h2 className='text-xl font-semibold text-left mx-3'>Fotografias</h2>
+          <h2 className='text-xl font-semibold text-left mx-3'>Fotografías</h2>
           <div className='opacity-50 bg-current h-1 rounded-2xl flex-grow' />
         </div>
         <ul className="flex flex-wrap flex-row items-center lg:items-start justify-center pt-5">
