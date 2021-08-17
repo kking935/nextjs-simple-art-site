@@ -72,7 +72,7 @@ const Home: NextPage = () => {
               </div>
             </AutoplaySlider>
             <Link href='/escaparate'>
-              <a className='w-44 float-right flex flex-row justify-evenly items-center bg-blue-500 py-3 px-1 rounded-xl mt-5 text-sm'>
+              <a className='font-semibold w-44 float-right flex flex-row justify-evenly items-center bg-blue-500 py-3 px-1 rounded-xl mt-5 text-sm'>
                 <GalleryIcon />
                 Ver Escaparate
               </a>
