@@ -52,7 +52,7 @@ const GaleriaPage: NextPage<ProjectProps> = (props: ProjectProps) => {
             <div className='pt-10'>
               <Gallery photos={props.project.photos} />
             </div>
-            <p className='text-left mt-10'>{props.film.description}</p>
+            <p className='text-left mt-10'>{props.project.description}</p>
         </section>
       </section>
     </Layout>
