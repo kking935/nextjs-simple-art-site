@@ -60,7 +60,7 @@ const Galeria: NextPage<GaleriaProps> = (props: GaleriaProps) => {
       <Head>
         <title>ESCAPARATE | Mario Niño</title>
       </Head>
-      <section className='py-16 max-w-7xl mx-auto'>
+      <section className='py-16 max-w-7xl mx-auto  px-5'>
         <h1 className='text-3xl font-semibold pb-5 text-center text-white'>ESCAPARATE</h1>
         <div className='text-gray-300 flex justify-start items-center'>
           <h2 className='text-xl font-semibold text-left mx-3'>Documentales</h2>
