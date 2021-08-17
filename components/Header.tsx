@@ -4,9 +4,9 @@ import Image from 'next/image'
 
 const Header: FC = () => {
     return (
-        <header className='w-screen shadow-md bg-gray-600'>            
+        <header className='w-screen shadow-md bg-gray-800'>            
             <nav>
-                <ul className='mx-auto flex justify-start items-center max-w-7xl py-6 px-5 font-mono'>
+                <ul className='mx-auto flex justify-start items-center max-w-7xl py-6 px-5'>
                     <li>
                         <Link href='/'>
                             <a>
@@ -16,8 +16,15 @@ const Header: FC = () => {
                     </li>
                     <li className='flex-grow' />
                     <li>
-                        <Link href='/contacto'>
-                            <a className='bg-blue-500 font-bold text-white p-3 rounded-xl shadow-md'>
+                        <Link href='/galeria'>
+                            <a className='hidden sm:block p-3 font-bold text-white transition duration-500 hover:text-red-500  mr-24'>
+                                GALERÍA
+                            </a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href='/#contact'>
+                            <a className='bg-blue-500 font-bold text-white transition duration-500 hover:text-yellow-300 p-3 rounded-xl shadow-md'>
                                 CONTACTO
                             </a>
                         </Link>
