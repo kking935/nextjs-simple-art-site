@@ -1,0 +1,86 @@
+[
+    {
+        "titulo": "PROTESTAS",
+        "puntoFinal": "protestas",
+        "imagenPrincipal": "/images/flag.jpg",
+        "descripcion":  [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        ],
+        "fotos": [
+            {
+                "src": "/images/flag.jpg",
+                "width": 4,
+                "height": 2
+            },
+            {
+                "src": "/images/colombia-pics-1.jpg",
+                "width": 4,
+                "height": 2
+            },            {
+                "src": "/images/colombia-pics-2.jpg",
+                "width": 4,
+                "height": 2
+            },
+            {
+                "src": "/images/colombia-pics-3.jpg",
+                "width": 4,
+                "height": 2
+            },            {
+                "src": "/images/colombia-pics-4.jpg",
+                "width": 4,
+                "height": 2
+            },
+            {
+                "src": "/images/colombia-pics-5.jpg",
+                "width": 4,
+                "height": 2
+            },            {
+                "src": "/images/colombia-pics-6.jpg",
+                "width": 4,
+                "height": 2
+            },
+            {
+                "src": "/images/colombia-pics-7.jpg",
+                "width": 4,
+                "height": 2
+            }
+        ]
+    },
+    {
+        "titulo": "Bordes",
+        "puntoFinal": "bordes",
+        "imagenPrincipal": "/images/Bordes-pieza-1.jpg",
+        "descripcion":  [
+            "Bordes es una alegoría a la incertidumbre, un relato fragmentario situado dentro las primeras semanas del confinamiento obligatorio. La propuesta conceptual se plantea desde el ejercicio de la observación activa de los diferentes acontecimientos y, mientras estos son observados, van siendo documentados de manera directa. Contrastes, dualidad, miradas, tensión, campo y fuera de campo establecen un diálogo dentro de cada ensamble fotográfico a través de la contraposición de imágenes monocromáticas.",
+            "El proceso creativo se desarrolló desde las limitaciones impuestas por el confinamiento, teniendo siempre un mismo punto de vista para realizar las tomas fotográficas. En ese sentido, este ejercicio permite o propone una reflexión y una resignificación sobre los imaginarios que existen frente a habitar los espacios, sobre el adentro y el afuera, sobre lo público y lo privado. Por otro lado, la obra también busca visibilizar como cada individuo, desde sus condiciones y capacidades, experimentó el confinamiento y la crisis suscitada por este suceso excepcional."
+        ],
+        "fotos": [
+            {
+                "src": "/images/Bordes-pieza-1.jpg",
+                "width": 4,
+                "height": 2
+            },            
+            {
+                "src": "/images/Bordes-pieza-2.jpg",
+                "width": 4,
+                "height": 2
+            },
+            {
+                "src": "/images/Bordes-pieza-3.jpg",
+                "width": 4,
+                "height": 2
+            },            {
+                "src": "/images/Bordes-pieza-4.jpg",
+                "width": 4,
+                "height": 2
+            },
+            {
+                "src": "/images/Bordes-pieza-5.jpg",
+                "width": 4,
+                "height": 2
+            }
+        ]
+    }
+]

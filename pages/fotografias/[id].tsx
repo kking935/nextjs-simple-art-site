@@ -3,12 +3,12 @@ import Layout from '../../components/Layout'
 import Gallery from 'react-photo-gallery';
 import Link from 'next/link'
 import Divider from '../../components/Divider'
-import gallery from '../../data/gallery.json'
+import gallery from '../../data/galeria.json'
 
 export async function getStaticPaths() {
   let paths = []
   for (let i = 0; i < gallery.length; i++) {
-    paths.push({params: { id: gallery[i].endpoint }})
+    paths.push({params: { id: gallery[i].puntoFinal }})
   }
 
   return { paths, fallback: false }
@@ -17,7 +17,7 @@ export async function getStaticPaths() {
 export async function getStaticProps(props: {params: {id: string}}) {
   let project: any = ''
   for (let i = 0; i < gallery.length; i++) {
-    if (gallery[i].endpoint === props.params.id) {
+    if (gallery[i].puntoFinal === props.params.id) {
       project = gallery[i]
       break
     }
@@ -28,13 +28,14 @@ export async function getStaticProps(props: {params: {id: string}}) {
 
 type ProjectProps = {
   project: {
-    title: string,
-    photos: any,
-    description: string
+    titulo: string,
+    fotos: any,
+    descripcion: string
   }
 }
 
 const GaleriaPage: NextPage<ProjectProps> = (props: ProjectProps) => {
+  console.log(props.project.fotos)
   return (
     <Layout>
       <section className='text-center mx-auto max-w-7xl pt-10 pb-24 px-8 md:px-16'>
@@ -43,16 +44,20 @@ const GaleriaPage: NextPage<ProjectProps> = (props: ProjectProps) => {
             <a className=' hover:text-blue-400 text-current'>Trabajos</a>
           </Link>
           <p className='inline-block mx-1'> / </p>
-          <p className='cursor-default inline-block font-semibold'>{props.project.title}</p>
+          <p className='cursor-default inline-block font-semibold'>{props.project.titulo}</p>
         </div>
-        <h1 className='text-white text-3xl font-semibold pb-10'>{props.project.title}</h1>
+        <h1 className='text-white text-3xl font-semibold pb-10'>{props.project.titulo}</h1>
 
         <Divider black={false} />
         <section className='px-3 sm:px-10'>
             <div className='pt-10'>
-              <Gallery photos={props.project.photos} />
+              <Gallery photos={props.project.fotos} />
             </div>
-            <p className='text-left mt-10'>{props.project.description}</p>
+            {props.project.descripcion.map((text) => {
+              return (
+                <p className='text-left mt-10'>{text}</p>
+              )
+            })}
         </section>
       </section>
     </Layout>

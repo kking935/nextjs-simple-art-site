@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Header: FC = () => {
     return (
-        <header className='w-screen shadow-md bg-gray-800'>            
+        <header className='w-screen shadow-md colorDelMenu'>            
             <nav>
                 <ul className='mx-auto flex justify-start items-center max-w-7xl py-6 px-5'>
                     <li>

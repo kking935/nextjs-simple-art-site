@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         <section className='pt-16 px-5 sm:px-16 max-w-7xl mx-auto'>
         <div className="pb-10">
           <div className="text-center animate-slideLeft">
-            <Image className="rounded-full" src='/images/mario-headshot.png' alt='Mario Niño' width={300} height={300} />
+            <Image className="rounded-full" src='/images/mario-headshot.jpg' alt='Mario Niño' width={300} height={300} />
           </div>
           <div className="flex justify-center items-center">
             <h1 className='animate-slideTop mt-5 text-4xl md:text-5xl text-yellow-300 font-semibold'>

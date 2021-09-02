@@ -1,23 +1,23 @@
 [
     {
-        "title": "LA LLUVIA",
-        "endpoint": "la-lluvia",
-        "mainImage": "/images/dust.jpg",
-        "embeddedSrc": "https://www.youtube-nocookie.com/embed/ge5P47cg0RM",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "titulo": "LA LLUVIA",
+        "puntoFinal": "la-lluvia",
+        "imagenPrincipal": "/images/dust.jpg",
+        "insertarLink": "https://www.youtube-nocookie.com/embed/ge5P47cg0RM",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-        "title": "LA RUTA",
-        "endpoint": "la-ruta",
-        "mainImage": "/images/ruta.jpg",
-        "embeddedSrc": "https://www.youtube-nocookie.com/embed/0vHfynWPgxE",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "titulo": "LA RUTA",
+        "puntoFinal": "la-ruta",
+        "imagenPrincipal": "/images/ruta.jpg",
+        "insertarLink": "https://www.youtube-nocookie.com/embed/0vHfynWPgxE",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-        "title": "HECHOS DE CORAZÓN",
-        "endpoint": "hechos-de-corazón",
-        "mainImage": "/images/corazon.jpg",
-        "embeddedSrc": "https://www.youtube-nocookie.com/embed/Eh3M6lUMylM",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "titulo": "HECHOS DE CORAZÓN",
+        "puntoFinal": "hechos-de-corazón",
+        "imagenPrincipal": "/images/corazon.jpg",
+        "insertarLink": "https://www.youtube-nocookie.com/embed/Eh3M6lUMylM",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
 ]

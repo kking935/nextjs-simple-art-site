@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Head from 'next/head'
 import Link from 'next/link'
 import { FC } from 'react'
-import projects from '../data/gallery.json'
+import projects from '../data/galeria.json'
 import films from '../data/film.json'
 
 type GaleriaItemProps = {
@@ -61,25 +61,25 @@ const Galeria: NextPage<GaleriaProps> = (props: GaleriaProps) => {
         <title>TRABAJOS | Mario Niño</title>
       </Head>
       <section className='py-16 max-w-7xl mx-auto  px-5'>
-        <h1 className='text-3xl font-semibold pb-5 text-center text-white'>TRABAJOS</h1>
-        <div className='text-gray-300 flex justify-start items-center'>
+        <h1 className='text-3xl font-semibold pb-5 text-center text-black'>TRABAJOS</h1>
+        <div className='flex justify-start items-center'>
           <h2 className='text-xl font-semibold text-left mx-3'>Documentales</h2>
           <div className='opacity-50 bg-current h-1 rounded-2xl flex-grow' />
         </div>
         <ul className="flex flex-wrap flex-row items-center lg:items-start justify-center pt-5">
           {props.films.map((film: any, index: number) => {
-            return <FilmItem key={index} endpoint={film.endpoint} text={film.title} imgSrc={film.mainImage} />
+            return <FilmItem key={index} endpoint={film.puntoFinal} text={film.titulo} imgSrc={film.imagenPrincipal} />
           })}
           <li className='mx-3 h-1 w-96' />
           <li className='mx-3 h-1 w-96' />
         </ul>
-        <div className='text-gray-300 flex justify-start items-center mt-10'>
+        <div className='flex justify-start items-center mt-10'>
           <h2 className='text-xl font-semibold text-left mx-3'>Fotografías</h2>
           <div className='opacity-50 bg-current h-1 rounded-2xl flex-grow' />
         </div>
         <ul className="flex flex-wrap flex-row items-center lg:items-start justify-center pt-5">
           {props.projects.map((project: any, index: number) => {
-            return <GaleriaItem key={index} endpoint={project.endpoint} text={project.title} imgSrc={project.mainImage} />
+            return <GaleriaItem key={index} endpoint={project.puntoFinal} text={project.titulo} imgSrc={project.imagenPrincipal} />
           })}
           <li className='mx-3 h-1 w-96' />
           <li className='mx-3 h-1 w-96' />

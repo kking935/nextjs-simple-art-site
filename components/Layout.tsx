@@ -9,13 +9,13 @@ export type LayoutProps = {
 
 const Layout: FC<LayoutProps> = (props: LayoutProps) => {
     return (
-        <div className='font-mono overflow-x-hidden text-white'>
+        <div className='font-mono overflow-x-hidden text-black'>
             <Head>
                 <title>Mario Niño</title>
             </Head>
             
             <Header />
-            <main className='w-screen min-h-screen bg-gray-900'>
+            <main className='w-screen min-h-screen colorDePortada'>
                 {props.children}
             </main>
             <Footer />
