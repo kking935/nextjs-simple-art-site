@@ -17,14 +17,14 @@ const Header: FC = () => {
                     <li className='flex-grow' />
                     <li>
                         <Link href='/trabajos'>
-                            <a className='hidden sm:block p-3 font-bold text-white transition duration-500 hover:text-red-500  mr-24'>
+                            <a className='hidden sm:block p-3 font-bold transition duration-500 hover:text-red-500  mr-24'>
                                 TRABAJOS
                             </a>
                         </Link>
                     </li>
                     <li>
                         <Link href='/#contact'>
-                            <a className='bg-blue-500 font-bold text-white transition duration-500 hover:text-yellow-300 p-3 rounded-xl shadow-md'>
+                            <a className='colorDeButon font-bold colorDeTextoDeButon transition duration-500 hover:text-yellow-300 p-3 rounded-xl shadow-md'>
                                 CONTACTO
                             </a>
                         </Link>

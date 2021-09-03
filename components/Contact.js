@@ -150,7 +150,7 @@ const Contact = () => {
         )
 
     return (
-        <div className=' text-white w-full'>
+        <div className='w-full'>
             <div className={`${loading || formResponse ? '' : 'hidden'} mx-auto max-w-md my-10 rounded-2xl shadow-xl px-10 pb-5 pt-10`}>
                 <div className={`${loading ? '' : 'hidden'} w-full h-auto py-10 flex flex-col items-center justify-center`}>
                     <UploadIcon className='w-16 h-16' />
@@ -165,7 +165,7 @@ const Contact = () => {
                     </p>
                     <p className=' text-2xl font-bold pt-5'>¡Mantengámonos en contacto!</p>
                 </div>
-                <form className='my-10 rounded-2xl shadow-xl px-10 pb-5 pt-10 max-w-3xl mx-auto bg-gray-900' onChange={handleChange} onSubmit={handleSubmit}>
+                <form className='text-white my-10 rounded-2xl shadow-xl px-10 pb-5 pt-10 max-w-3xl mx-auto bg-gray-900' onChange={handleChange} onSubmit={handleSubmit}>
                     <label className="block mb-5">
                         <span>Nombre completo</span>
                         <input onBlur={event => checkInput(event.target.value, 'name')} id='name-input' required type="text" name='name' placeholder="" className={inputStyles} />
@@ -182,7 +182,7 @@ const Contact = () => {
                         <ErrorText name='message' />
                     </label>
                     <div className='text-center mt-5 py-2'>
-                        <button disabled={!ready} type='submit' className={`${ready ? '' : 'opacity-50 cursor-default'} bg-blue-500 p-3 rounded-xl text-white `}>Entregar</button>
+                        <button disabled={!ready} type='submit' className={`${ready ? '' : 'opacity-50 cursor-default'} colorDeButon colorDeTextoDeButon p-3 rounded-xl`}>Entregar</button>
                     </div>
                     <p id='result-text' />
                 </form>

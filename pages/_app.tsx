@@ -1,7 +1,9 @@
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
+import React from 'react'
 import RouteLoader from '../components/RouteLoader'
-import '../styles/global.css'
+import { ThemeWrapper } from '../context/theme'
+import '../estilos/global.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -15,9 +17,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="theme-color" content="#000000" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <RouteLoader>
-        <Component {...pageProps} />
-      </RouteLoader>
+      <ThemeWrapper>
+        <RouteLoader>
+          <Component {...pageProps} />
+        </RouteLoader>
+      </ThemeWrapper>
     </>
   )
 }

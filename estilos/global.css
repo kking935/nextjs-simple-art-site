@@ -1,0 +1,49 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ 
+
+/* Styles for Dark Mode */
+:root {
+	--pageBgColor: #334e68;
+	--menuBgColor: #102A43;
+	--footerBgColor: #102A43;
+    --textColor: #ffffff;
+    --buttonBgColor: #2f79da;
+    --buttonTextColor: #ffffff;
+}
+
+/* Colores personalizados */ 
+
+.colorDePortada {
+    background-color: var(--pageBgColor);
+} 
+
+.colorDelMenu {
+    background-color: var(--menuBgColor);
+}
+
+.colorDePieDePagina {
+    background-color: var(--footerBgColor);
+}
+
+.colorDeTexto {
+    color: var(--textColor)
+}
+
+.colorDeButon {
+    background-color: var(--buttonBgColor);
+}
+
+.colorDeTextoDeButon {
+    color: var(--buttonTextColor)
+}

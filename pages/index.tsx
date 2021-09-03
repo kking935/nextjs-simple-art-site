@@ -14,7 +14,7 @@ const AutoplaySlider = withAutoplay(AwesomeSlider);
 const Home: NextPage = () => {
   return (
     <Layout>
-      <div className='animate-fadeIn text-white'>
+      <div className='animate-fadeIn'>
         <section className='pt-16 px-5 sm:px-16 max-w-7xl mx-auto'>
         <div className="pb-10">
           <div className="text-center animate-slideLeft">
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
             </h1>
           </div>
         </div>
-        <Divider black={false} />
+        <Divider />
         <div className='pb-24 text-md md:text-lg'>
           <p className='mt-10 text-lg md:text-xl'>
             👋 Hola, me llamo <b>Mario Niño</b>.
@@ -47,7 +47,7 @@ const Home: NextPage = () => {
         </div>
       </section>
 
-        <section className='px-8 pt-40 pb-64 bg-gradient-to-t from-gray-700 to-gray-900'>
+        <section className='px-8 pt-40 pb-64 to-gray-900'>
           <div className='max-w-3xl mx-auto'>
             <h2 className='text-center mb-10 italic text-2xl font-semibold'>
               CAPTURO LA BELLEZA DE COLOMBIA Y DEL MUNDO
@@ -72,7 +72,7 @@ const Home: NextPage = () => {
               </div>
             </AutoplaySlider>
             <Link href='/trabajos'>
-              <a className='font-semibold w-44 float-right flex flex-row justify-evenly items-center bg-blue-500 py-3 px-1 rounded-xl mt-5 text-sm'>
+              <a className='font-semibold w-44 float-right flex flex-row justify-evenly items-center colorDeButon colorDeTextoDeButon py-3 px-1 rounded-xl mt-5 text-sm'>
                 <GalleryIcon />
                 Ver Trabajos
               </a>
@@ -81,7 +81,7 @@ const Home: NextPage = () => {
 
         </section>
 
-        <section className='px-8 pt-8 sm:pt-12 md:pt-16 lg:pt-20 pb-48 flex flex-col items-center justify-center bg-gradient-to-b from-gray-700 to-gray-900' id='contact'>
+        <section className='px-8 pt-8 sm:pt-12 md:pt-16 lg:pt-20 pb-48 flex flex-col items-center justify-center' id='contact'>
           <Contact />
         </section>
       </div>
